@@ -1,0 +1,72 @@
+body {
+    background: white;
+    color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    background: white;
+    color: pink;
+    text-align: center;
+}
+header.a {
+    text-align: left;
+
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+li {
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background-color: pink;
+    text-decoration-color: yellow;
+}
+
+
+
+section li {
+    display: flex;
+    flex-direction: row;
+    background: yellow;
+    margin: 100px;
+    padding: 0px;
+    text-transform: uppercase;
+      
+}
+section.g {
+    background-color: white;
+} 
+
+section.g li {
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+header ol li {
+    display: flex;
+    flex-direction: row;
+}
+
+a:link {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(69, 217, 236);
+    text-decoration: none;
+}
+a:active {
+    color: hotpink;
+    text-decoration: none;
+}
+
